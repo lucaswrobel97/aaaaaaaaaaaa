@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuchnikowo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="nav-assets container-fluid">
+        <div class="row container mx-auto">
+            <div class="d-flex container justify-content-center">
+                <div class="d-flex align-items-center py-3 px-3 flex-grow-1">
+                    <div class="px-2">
+                        <img src="/images/nav/arrow.png" alt="arrow" srcset="" class="img-fluid">
+                    </div>
+                    <p class="nav-assets-text">
+                        Zwrot do <strong>30 dni </strong>
+                    </p>
+                </div>
+                <div class="d-flex align-items-center py-3 px-3 flex-grow-1">
+                    <div class="px-2">
+                        <img src="/images/nav/payment.png" alt="payment" srcset="" class="img-fluid">
+                    </div>
+                    <p class="nav-assets-text">
+                        Bezpieczna płatność <strong>online </strong>
+                    </p>
+                </div>
+                <div class="d-flex align-items-center py-3 px-3 flex-grow-1">
+                    <div class="px-2">
+                        <img src="/images/nav/truck.png" alt="truck" srcset="" class="img-fluid">
+                    </div>
+                    <p class="nav-assets-text">
+                        Darmowa dostawa <strong>od 299 </strong>
+                    </p>
+                </div>
+                <div class="d-flex align-items-center py-3 px-3 flex-grow-1">
+                    <div class="px-2">
+                        <img src="/images/nav/products.png" alt="products" srcset="" class="img-fluid">
+                    </div>
+                    <p class="nav-assets-text">
+                        5 tys. produktów <strong>do kuchi i gastronomii </strong>
+                    </p>
+                </div>
+                <div class="d-flex align-items-center py-3 px-3 flex-grow-1">
+                    <div class="nav-assets-region d-flex">
+                        <div class="country d-flex">
+                            <p class="nav-assets-text px-2">PL</p>
+                            <img src="/images/nav/arrow-down.png" alt="arrow" srcset="">
+                        </div>
+                        <div class="currency d-flex">
+                            <p class="nav-assets-text px-2">PLN</p>
+                            <img src="/images/nav/arrow-down.png" alt="arrow" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center py-3 px-3 flex-grow-1">
+                    <div class="nav-assets-region d-flex flex-end">
+                        <a href="#" class="nav-assets-text px-1">Zaloguj się</a>
+                        <a href="#" class="nav-assets-text px-1">Załóż konto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="logo pt-5">
+        <div class="row container mx-auto">
+            <div class="d-flex container justify-content-center">
+                <div class="d-flex">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img src="/images/logo/logo.png" alt="logo" srcset="" class="img-fluid">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div>
+                                <img src="/images/logo/logo-name.png" alt="name" srcset="" class="img-fluid">
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <img src="/images/logo/logo-art.png" alt="art" srcset="" class="img-fluid">
+                                </div>
+                                <div>
+                                    <img src="/images/logo/logo-line.png" alt="line" srcset="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex phone-contact align-items-center ps-5">
+                    <div class="phonebox d-flex align-items-center">
+                        <img src="/images/logo/phone.png" alt="phone" srcset="" class="img-fluid">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <p class="phone-text ps-4"> Skontaktuj się z nami </p>
+                        <div class="d-flex ps-4">
+                            <p class="phone-number">777-777-777</p>
+                            <div class="phone-number-img px-4">
+                                <img src="/images/logo/arrowdown.png" alt="arrow" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mx-5 flex-grow-1">
+                    <form action="#" class="search-bar">
+                        <input type="text" placeholder="Jakiego produktu szukasz?" name="search">
+                        <img src="/images/logo/Vector.png" alt="searchicon" srcset="">
+                    </form>
+                </div>
+                <div class="d-flex">
+                    <div class="d-flex align-items-center closet px-3">
+                        <div>
+                            <img src="/images/logo/hearth.png" alt="hearth" srcset="">
+                        </div>
+                        <p class="closet-text px-3">Schowek (0)</p>
+                    </div>
+                    <div class="d-flex align-items-center cart px-3">
+                        <div class="cart-img">
+                            <img src="/images/logo/cart.png" alt="cart" srcset="">
+                        </div>
+                        <p class="closet-text px-3">Koszyk (0)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar pt-5">
+        <div class="row container mx-auto">
+            <ul class="nav-list d-flex">
+                <li class="nav-list-item px-3"><a href="#">Gastronomia</a></li>
+                <li class="nav-list-item px-3"><a href="#">Kuchnia</a></li>
+                <li class="nav-list-item px-3"><a href="#">Porcelana</a></li>
+                <li class="nav-list-item px-3"><a href="#">Example</a></li>
+                <li class="nav-list-item px-3"><a href="#">Example</a></li>
+                <li class="nav-list-item px-3"><a href="#">Nowości</a></li>
+                <li class="nav-list-item px-3"><a href="#" class="promo">Promocje</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container-fluid banner px-2">
+        <div class="row">
+            <div class="col-2 banner-image left">
+            </div>
+            <div class="col-4 my-auto">
+                <p class="banner-text">gastronomia</p>
+                <h2 class="banner-title">Szukasz wyposażenia do restauracji lub hotelu?</h2>
+                <p class="banner-info py-4">Sprawdź co dla Ciebie przygotowaliśmy.</p>
+                <a href="#" class="button">Sprawdzam</a>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3">
+                <img src="/images/banner/foodstand.png" alt="foodstand" srcset="">
+            </div>
+            <div class="col-2 banner-image right">
+            </div>
+        </div>
+        <div class="arrow-box left">
+            <img src="/images/banner/arrow-left.png" alt="arrow" srcset="">
+        </div>
+        <div class="arrow-box right">
+            <img src="/images/banner/arrow-right.png" alt="arrow" srcset="">
+        </div>
+    </section>
+    <section class="products px-2 py-5">
+        <div class="container d-flex">
+            <div class="product-item category gastronomy">
+                <h2 class="category-title">
+                    Gastronomia
+                </h2>
+                <a href="#" class="button category-button">Zobacz wszystkie</a>
+            </div>
+            <div class="slide-container d-flex">
+                <div class="arrow-box slide-left">
+                    <img src="/images/banner/arrow-left.png" alt="arrow" srcset="">
+                </div>
+                <div class="arrow-box slide-right">
+                    <img src="/images/banner/arrow-right.png" alt="arrow" srcset="">
+                </div>
+                <div class="product-item px-5">
+                    <img src="/images/products/gastro1.png" alt="gastronomy" srcset="">
+                    <p class="description">Szczypce do potraw i żywności z blokadą DŁ. 250 MM-Hendi 171707</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">20,99 PLN</p>
+                </div>
+                <div class="product-item discount">
+                    <img src="/images/products/gastro2.png" alt="gastronomy" srcset="">
+                    <span class="discount">promocja</span>
+                    <p class="description">Butelka PET ze spryskiwaczem czarnym 24/410 transparentna 400ml</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price pb-3 discounted">4,99 PLN</p>
+                        <span class="before-discount ms-3">14,99 PLN</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/images/products/gastro3.png" alt="gastronomy" srcset="">
+                    <p class="description">Dyspenser Pojemnik do sosoów zimnych 0,2L. Czerwony -hendi 558010</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">20,99 PLN</p>
+                </div>
+                <div class="product-item discount">
+                    <img src="/images/products/gastro4.png" alt="gastronomy" srcset="">
+                    <p class="description">Tabliczka informacyjna dwustronna rezerwacja tworzywo plexiglass PL - Hendi
+                        663523</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price pb-3 discounted">14,99 PLN</p>
+                        <span class="before-discount ms-3">20,99 PLN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products px-2 py-5">
+        <div class="container d-flex">
+            <div class="product-item category kitchen">
+                <h2 class="category-title">
+                    Kuchnia
+                </h2>
+                <a href="#" class="button category-button">Zobacz wszystkie</a>
+            </div>
+            <div class="slide-container d-flex">
+                <div class="arrow-box slide-left">
+                    <img src="/images/banner/arrow-left.png" alt="arrow" srcset="">
+                </div>
+                <div class="arrow-box slide-right">
+                    <img src="/images/banner/arrow-right.png" alt="arrow" srcset="">
+                </div>
+                <div class="product-item px-5">
+                    <img src="/images/products/kitchen1.png" alt="gastronomy" srcset="">
+                    <p class="description">Silikonowa trzepaczka ubijaczka kuchenna 1513</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">11,99 PLN</p>
+                </div>
+                <div class="product-item discount">
+                    <img src="/images/products/kitchen2.png" alt="gastronomy" srcset="">
+                    <span class="discount">promocja</span>
+                    <p class="description">Nóż kółko do korojenia pizzy radełko 1145</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price pb-3 discounted">4,99 PLN</p>
+                        <span class="before-discount ms-3">14,99 PLN</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/images/products/kitchen3.png" alt="gastronomy" srcset="">
+                    <p class="description">Zestaw 3 patelni Granitowych 20/24/28CM Berlinger HAUS Metallic LINE Rose
+                        Gold Bh-1278</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">244,99 PLN</p>
+                </div>
+                <div class="product-item">
+                    <img src="/images/products/kitchen4.png" alt="gastronomy" srcset="">
+                    <p class="description">Czajnik 3L Berlinger HAUS BH-1076 z Gwizdkiem Emerald</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">129,99 PLN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products px-2 py-5">
+        <div class="container d-flex">
+            <div class="product-item category porcelain">
+                <h2 class="category-title">
+                    Porcelana
+                </h2>
+                <a href="#" class="button category-button">Zobacz wszystkie</a>
+            </div>
+            <div class="slide-container d-flex">
+                <div class="arrow-box slide-left">
+                    <img src="/images/banner/arrow-left.png" alt="arrow" srcset="">
+                </div>
+                <div class="arrow-box slide-right">
+                    <img src="/images/banner/arrow-right.png" alt="arrow" srcset="">
+                </div>
+                <div class="product-item px-5">
+                    <img src="/images/products/porcelain1.png" alt="gastronomy" srcset="">
+                    <p class="description">Półmisek do zapiekania owalny z uchwytami 165x106x30MM biała porcelana -
+                        Hendi 784006</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">30,99 PLN</p>
+                </div>
+                <div class="product-item">
+                    <img src="/images/products/porcelain2.png" alt="gastronomy" srcset="">
+                    <p class="description">Miska na zupe Lionhead biała porcelana 0.5L - Hendi 7836182</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">45,99 PLN</p>
+                </div>
+                <div class="product-item">
+                    <img src="/images/products/porcelain3.png" alt="gastronomy" srcset="">
+                    <p class="description">Zestaw do przypraw solniczka i pieprzniczka Biała Porcelana - HENDI 786413
+                    </p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">50,99 PLN</p>
+                </div>
+                <div class="product-item">
+                    <img src="/images/products/porcelain4.png" alt="gastronomy" srcset="">
+                    <p class="description">Miseczka do przekąsek Cacerole tapas mini porcelana zestaw 6szt. - hendi
+                        784389</p>
+                    <div class="d-flex opinions py-3">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="opinion ms-4">(3 opinie)</span>
+                    </div>
+                    <p class="price pb-3">50,99 PLN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container ad my-5">
+    </section>
+    <main class="blog container">
+        <h2 class="blog-title p-5">Przepisy i porady kulinarne</h2>
+        <div class="row">
+            <div class="col-lg-8 px-5">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img src="/images/blog/food.png" alt="food">
+                    </div>
+                    <div class="card-body my-5">
+                        <h5 class="card-title">What is Lorem Ipsum?</h5>
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </p>
+                        <a href="#" class="card-link">Czytaj więcej >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 px-5">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img src="/images/blog/food1.png" alt="food">
+                    </div>
+                    <div class="card-body my-5">
+                        <h5 class="card-title">Why do we use it?</h5>
+                        <p class="card-text">
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                            here', making it look like readable English. Many desktop publishing packages and web page
+                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                            uncover many web sites still in their infancy. Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose (injected humour and the like)
+                        </p>
+                        <a href="#" class="card-link">Czytaj więcej >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 px-5">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img src="/images/blog/food2.png" alt="food">
+                    </div>
+                    <div class="card-body my-5">
+                        <h5 class="card-title">Where does it come from?</h5>
+                        <p class="card-text">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from
+                            sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                            Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
+                            popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+                            amet..", comes from a line in section 1.10.32.
+                        </p>
+                        <a href="#" class="card-link">Czytaj więcej >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 px-5">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img src="/images/blog/food3.png" alt="food">
+                    </div>
+                    <div class="card-body my-5">
+                        <h5 class="card-title">Where can I get some?</h5>
+                        <p class="card-text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+                            sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                            generators on the Internet tend to repeat predefined chunks as necessary, making this the
+                            first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
+                            with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                            non-characteristic words etc.
+                        </p>
+                        <a href="#" class="card-link">Czytaj więcej >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 px-5">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img src="/images/blog/food4.png" alt="food">
+                    </div>
+                    <div class="card-body my-5">
+                        <h5 class="card-title">Praesent tincidunt ultrices venenatis.</h5>
+                        <p class="card-text">
+                            Nam iaculis sem vel lacus venenatis bibendum. Cras vitae turpis nunc. Ut consectetur rutrum
+                            ante eget efficitur. Duis interdum dignissim leo a vestibulum. Curabitur tempus dolor
+                            mauris, et lacinia arcu porttitor vel. Proin pulvinar nulla in aliquet vehicula. Aliquam sit
+                            amet urna non justo finibus auctor ut quis magna. Fusce finibus urna et rutrum tristique.
+                            Nunc nec sapien dictum, mollis lacus at, laoreet mauris. Praesent dignissim massa nulla, vel
+                            tincidunt velit aliquam nec. Suspendisse tempor est et pellentesque varius. Curabitur mattis
+                            nunc id ligula tincidunt sodales. Nullam efficitur vestibulum neque, a blandit augue.
+                        </p>
+                        <a href="#" class="card-link">Czytaj więcej >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="shop-info">
+        <div class="container d-flex">
+            <div class="card w-50 pe-5">
+                <div class="card-title">
+                    Artykuły do kuchni - sklep internetowy
+                </div>
+                <div class="text-wrap pe-5 me-5">
+                    Gotowanie to wspaniała pasja, dająca dużo satysfakcji. Przygotowywanie posiłków z rodziną to świetny
+                    sposób na wspólne spędzenie czasu. Aby móc czerpać przyjemność z pichcenia, trzeba odpowiednio
+                    wyposażyć swoją kuchnię. Zarówno profesjonalni kucharze, jak i amatorzy potrzebują dobrych artykułów
+                    kuchennych. Na początku najlepiej zakupić podstawowe akcesoria, a następnie nabyć kolejne w miarę
+                    potrzeb. W naszym sklepie z artykułami kuchennymi znajdziesz wszelkie niezbędne gadżety, które
+                    przydadzą Ci się podczas przygotowywania posiłków. Kupisz u nas zarówno podstawowe akcesoria,
+                    potrzebne do przyrządzania prostych potraw, jak i zaawansowane, przydatne w czasie tworzenia
+                    skomplikowanych, egzotycznych dań. W naszej ofercie znajdziesz komplety artykułów kuchennych oraz
+                    pojedyncze akcesoria, które możesz kupować na sztuki. Zatem, jeśli chcesz szybko i sprawnie
+                    skompletować gadżety do kuchni, skorzystaj z oferty naszego sklepu internetowego. Składając
+                    zamówienie w sklepie, możesz cieszyć się szybką dostawą prosto pod Twoje drzwi. Zapomnisz o
+                    dźwiganiu ciężkich pakunków do miejsca zamieszkania, my to zrobimy za Ciebie!
+
+                    Gotowanie to wspaniała pasja, dająca dużo satysfakcji. Przygotowywanie posiłków z rodziną to świetny
+                    sposób na wspólne spędzenie czasu. Aby móc czerpać przyjemność z pichcenia, trzeba odpowiednio
+                    wyposażyć swoją kuchnię. Zarówno profesjonalni kucharze, jak i amatorzy potrzebują dobrych artykułów
+                    kuchennych. Na początku najlepiej zakupić podstawowe akcesoria, a następnie nabyć kolejne w miarę
+                    potrzeb. W naszym sklepie z artykułami kuchennymi znajdziesz wszelkie niezbędne gadżety, które
+                    przydadzą Ci się podczas przygotowywania posiłków. Kupisz u nas zarówno podstawowe akcesoria,
+                    potrzebne do przyrządzania prostych potraw, jak i zaawansowane, przydatne w czasie tworzenia
+                    skomplikowanych, egzotycznych dań. W naszej ofercie znajdziesz komplety artykułów kuchennych oraz
+                    pojedyncze akcesoria, które możesz kupować na sztuki. Zatem, jeśli chcesz szybko i sprawnie
+                    skompletować gadżety do kuchni, skorzystaj z oferty naszego sklepu internetowego. Składając
+                    zamówienie w sklepie, możesz cieszyć się szybką dostawą prosto pod Twoje drzwi. Zapomnisz o
+                    dźwiganiu ciężkich pakunków do miejsca zamieszkania, my to zrobimy za Ciebie!
+
+                    Gotowanie to wspaniała pasja, dająca dużo satysfakcji. Przygotowywanie posiłków z rodziną to świetny
+                    sposób na wspólne spędzenie czasu. Aby móc czerpać przyjemność z pichcenia, trzeba odpowiednio
+                    wyposażyć swoją kuchnię. Zarówno profesjonalni kucharze, jak i amatorzy potrzebują dobrych artykułów
+                    kuchennych. Na początku najlepiej zakupić podstawowe akcesoria, a następnie nabyć kolejne w miarę
+                    potrzeb. W naszym sklepie z artykułami kuchennymi znajdziesz wszelkie niezbędne gadżety, które
+                    przydadzą Ci się podczas przygotowywania posiłków. Kupisz u nas zarówno podstawowe akcesoria,
+                    potrzebne do przyrządzania prostych potraw, jak i zaawansowane, przydatne w czasie tworzenia
+                    skomplikowanych, egzotycznych dań. W naszej ofercie znajdziesz komplety artykułów kuchennych oraz
+                    pojedyncze akcesoria, które możesz kupować na sztuki. Zatem, jeśli chcesz szybko i sprawnie
+                    skompletować gadżety do kuchni, skorzystaj z oferty naszego sklepu internetowego. Składając
+                    zamówienie w sklepie, możesz cieszyć się szybką dostawą prosto pod Twoje drzwi. Zapomnisz o
+                    dźwiganiu ciężkich pakunków do miejsca zamieszkania, my to zrobimy za Ciebie!
+
+                    Gotowanie to wspaniała pasja, dająca dużo satysfakcji. Przygotowywanie posiłków z rodziną to świetny
+                    sposób na wspólne spędzenie czasu. Aby móc czerpać przyjemność z pichcenia, trzeba odpowiednio
+                    wyposażyć swoją kuchnię. Zarówno profesjonalni kucharze, jak i amatorzy potrzebują dobrych artykułów
+                    kuchennych. Na początku najlepiej zakupić podstawowe akcesoria, a następnie nabyć kolejne w miarę
+                    potrzeb. W naszym sklepie z artykułami kuchennymi znajdziesz wszelkie niezbędne gadżety, które
+                    przydadzą Ci się podczas przygotowywania posiłków. Kupisz u nas zarówno podstawowe akcesoria,
+                    potrzebne do przyrządzania prostych potraw, jak i zaawansowane, przydatne w czasie tworzenia
+                    skomplikowanych, egzotycznych dań. W naszej ofercie znajdziesz komplety artykułów kuchennych oraz
+                    pojedyncze akcesoria, które możesz kupować na sztuki. Zatem, jeśli chcesz szybko i sprawnie
+                    skompletować gadżety do kuchni, skorzystaj z oferty naszego sklepu internetowego. Składając
+                    zamówienie w sklepie, możesz cieszyć się szybką dostawą prosto pod Twoje drzwi. Zapomnisz o
+                    dźwiganiu ciężkich pakunków do miejsca zamieszkania, my to zrobimy za Ciebie!
+                    Gotowanie to wspaniała pasja, dająca dużo satysfakcji. Przygotowywanie posiłków z rodziną to świetny
+                    sposób na wspólne spędzenie czasu. Aby móc czerpać przyjemność z pichcenia, trzeba odpowiednio
+                    wyposażyć swoją kuchnię. Zarówno profesjonalni kucharze, jak i amatorzy potrzebują dobrych artykułów
+                    kuchennych. Na początku najlepiej zakupić podstawowe akcesoria, a następnie nabyć kolejne w miarę
+                    potrzeb. W naszym sklepie z artykułami kuchennymi znajdziesz wszelkie niezbędne gadżety, które
+                    przydadzą Ci się podczas przygotowywania posiłków. Kupisz u nas zarówno podstawowe akcesoria,
+                    potrzebne do przyrządzania prostych potraw, jak i zaawansowane, przydatne w czasie tworzenia
+                    skomplikowanych, egzotycznych dań. W naszej ofercie znajdziesz komplety artykułów kuchennych oraz
+                    pojedyncze akcesoria, które możesz kupować na sztuki. Zatem, jeśli chcesz szybko i sprawnie
+                    skompletować gadżety do kuchni, skorzystaj z oferty naszego sklepu internetowego. Składając
+                    zamówienie w sklepie, możesz cieszyć się szybką dostawą prosto pod Twoje drzwi. Zapomnisz o
+                    dźwiganiu ciężkich pakunków do miejsca zamieszkania, my to zrobimy za Ciebie!
+                </div>
+                <div class="scrollbar">
+                </div>
+                <div class="scrolled">
+
+                </div>
+            </div>
+            <div class="d-flex flex-column w-50 ps-5">
+                <div class="shop-assets py-5">
+                    <h1>Dlaczego e-kuchickowo.pl</h4>
+                    <div class="d-flex justify-content-around">
+                        <div class="assets-item d-flex flex-column align-items-center px-2 py-4">
+                            <div class="assets-item-img">
+                                <img src="/images/info/SHOPPING Black-24.svg" alt="" srcset="">
+                            </div>
+                            <span>Szybka wysyłka</span>
+                        </div>
+                        <div class="assets-item d-flex flex-column align-items-center px-2 py-4">
+                            <div class="assets-item-img">
+                                <img src="/images/info/BASIC Black-15.svg" alt="" srcset="">
+                            </div>
+                            <span>Gwarancja na 2 lata</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div class="assets-item d-flex flex-column align-items-center px-2 py-4">
+                            <div class="assets-item-img">
+                                <img src="/images/info/E-COMMERCE Black-28.svg" alt="" srcset="">
+                            </div>
+                            <span>Bezpłatny zwrot w paczkomacie</span>
+                        </div>
+                        <div class="assets-item d-flex flex-column align-items-center px-2 py-4">
+                            <div class="assets-item-img">
+                                <img src="/images/info/E-COMMERCE Black-13.svg"" alt="" srcset="">
+                            </div>
+                            <span>Poleca nas 100% klientów</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinions">
+                    <h4 class="pt-5">
+                        Ostatnie opinie klientów
+                    </h4>
+                    <p class="py-3 px-5">
+                        Praesent dignissim massa nulla, vel tincidunt velit aliquam nec. Suspendisse tempor est et
+                        pellentesque varius. Curabitur mattis nunc id ligula tincidunt sodales. Nullam efficitur
+                        vestibulum neque, a blandit augue.
+                    </p>
+                    <a href="#">FORMA DO PIECZENIA CHLEBA GRANIT DIAMOND BERLINGER</a>
+                    <div class="grades d-flex justify-content-center">
+                        <div class="grades-item px-4 py-3">
+                            <p>Zgodność z opisem</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="grades-item px-4 py-3">
+                            <p>Obsługa kupującego</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="grades-item px-4 py-3">
+                            <p>Koszt wysyłki</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="brands container py-5">
+        <h4 class="blog-title">
+            Nasze marki
+        </h4>
+        <div>
+            <img src="/images/brands.png" alt="brands" srcset="">
+        </div>
+    </section>
+    <section class="newsletter layer container">
+        <div class="row">
+            <div class="col-2 position-relative newsletter-line">
+                <div></div>
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-center pb-5">
+                <h4 class="title mt-5">Newsletter</h4>
+                <p class="newsletter-text">Zapisz się do newslettera aby być na bieżąco z nowościami i dodatkowymi rabatami na zakupy!</p>
+            </div>
+            <div class="col-4 pb-5">
+                <form action="#" class="email mt-5 d-flex flex-row">
+                    <input type="text" name="email" placeholder="Twój adres e-mail">
+                    <a href="#" class="button">Wyślij</a>
+                </form>
+                <p class="cookies pt-4">
+                    Podając email akceptujesz <a href="#">politykę prywatności</a>. Możesz być spokojny, nie wysyłamy spamu.
+                </p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </section>
+    <div class="footer container-fluid mt-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-3">
+                    <div class="footer-header">
+                        <span>Obsługa klienta</span>
+                    </div>
+                    <ul class="footer-nav">
+                        <li class="footer-nav-item"><a href="#">FAQ</a></li>
+                        <li class="footer-nav-item"><a href="#">Czas i koszty wysyłki</a></li>
+                        <li class="footer-nav-item"><a href="#">Zwrot towaru</a></li>
+                        <li class="footer-nav-item"><a href="#">Formy płatności</a></li>
+                        <li class="footer-nav-item"><a href="#">Reklamacje</a></li>
+                        <li class="footer-nav-item"><a href="#">Współpraca B2B</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="footer-header">
+                        <span>Informacje</span>
+                    </div>
+                    <ul class="footer-nav">
+                        <li class="footer-nav-item"><a href="#">Kontakt</a></li>
+                        <li class="footer-nav-item"><a href="#">O sklepie</a></li>
+                        <li class="footer-nav-item"><a href="#">Regulamin</a></li>
+                        <li class="footer-nav-item"><a href="#">Polityka prywatności</a></li>
+                        <li class="footer-nav-item"><a href="#">Mapa strony</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="footer-header">
+                        <span>Moje konto</span>
+                    </div>
+                    <ul class="footer-nav">
+                        <li class="footer-nav-item"><a href="#">Załóż konto</a></li>
+                        <li class="footer-nav-item"><a href="#">Zaloguj się</a></li>
+                        <li class="footer-nav-item"><a href="#">Moje zamówienia</a></li>
+                        <li class="footer-nav-item"><a href="#">Moje reklamacje</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="footer-header">
+                        <span>Nagrody / Certyfikaty</span>
+                    </div>
+                    <ul class="footer-nav">
+                        <li class="footer-nav-item">
+                            <img src="/images/footer/trust.png" alt="trust" srcset="">
+                            <a href="#">Trusted Shops</a></li>
+                        <li class="footer-nav-item">
+                            <img src="/images/footer/ssl.png" alt="ssl" srcset="">
+                            <a href="#">Certyfikat SSL</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #F5F5F5; 
+    --green: #31BC3C;
+    --dark: #0D0F26;
+    --orange: #E53131;
+    --gray: #807A92;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+    object-fit: cover;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+
+.nav-assets {
+    background-color: var(--dark);
+}
+
+.nav-assets-text {
+    color: var(--white);
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+.currency {
+    position: relative;
+}
+
+.currency::after {
+    position: absolute;
+    content: "";
+    background-color: var(--white);
+    width: 1px;
+    height: 100%;
+    top: 0;
+    right: -10px ;
+}
+
+@media (max-width: 960px) {
+    .nav-assets-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .nav-assets-text {
+        font-size: 0.8rem;
+    }
+}
+
+/* nav logo panel */
+
+.phonebox {
+    height: 100%;
+}
+
+.phonebox img {
+    height: 50%;
+}
+
+.phone-text {
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+
+.phone-number {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.phone-number-img img {
+    height: 40%;
+    width: 40%;
+}
+
+.search-bar {
+    width: 100%;
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 40px 10px 70px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    color: #807A92;
+}
+
+.search-bar img {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.closet-text {
+    color: #0D0F26;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.cart-img {
+    background-color: var(--green);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* navbar */
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.nav-list-item a.promo {
+ color: var(--orange);
+}
+
+/* banner */
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .1;
+}
+
+.banner-image.left {
+    background-image: url('images/banner/chef-left.png');
+}
+
+.banner-image.right {
+    background-image: url('images/banner/pan-right.png');
+    background-position: right;
+}
+
+.banner-text {
+    color: var(--green);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.banner-title {
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.banner-info {
+    color: var(--dark);
+    font-size: 1.8rem;
+}
+
+a.button {
+ text-decoration: none;
+ font-size: 1.6rem;
+ color: var(--white);
+ background-color: #31BC3C;
+ padding: 10px 30px;
+ border-radius: 15px;
+ transition: .4s;
+}
+
+a.button:hover {
+    background-color: var(--orange);
+}
+
+.arrow-box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow-box.left {
+    left: 5%;
+}
+
+.arrow-box.right {
+    right: 5%;
+}
+
+/* products */
+
+.products .container{
+    position: relative;
+}
+
+.products .container::after {
+    position: absolute;
+    content: "";
+    background-color: var(--gray);
+    left: 5%;
+    right: 5%;
+    bottom: -10%;
+    height: 2px;
+    opacity: 0.6;
+}
+
+.products .container:nth-last-of-type(2)::after {
+    display: none;
+}
+
+.category {
+    position: relative;
+    border-radius: 40px;
+}
+
+.category-title {
+    position: absolute;
+    font-size: 2.4rem;
+    color: var(--white);
+    top: 10%;
+    left: 10%;
+}
+
+.category-button {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+
+
+.category.gastronomy {
+    background: linear-gradient(rgba(13,15,38,.7), rgba(13,15,38,.7)),
+    url('images/products/gastronomy.png');
+}
+
+.category.kitchen {
+    background: linear-gradient(rgba(50,102,71,.25), rgba(50,102,71,.25)),
+    url('images/products/kitchen.png');
+}
+
+.category.porcelain {
+    background: linear-gradient(rgba(111,78,55,.25), rgba(111,78,55,.25)),
+    url('images/products/porcelain.png');
+}
+
+.product-item {
+    flex-basis: 20%;
+}
+
+.product-item.discount {
+    position: relative;
+}
+
+span.discount {
+    position: absolute;
+    color: var(--orange);
+    background-color: #F5ADAD;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 15px;
+    left: 5%;
+    top: 5%;
+}
+
+.description {
+    color: var(--dark);
+    font-size: 1.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 15em; 
+    white-space: nowrap;
+}
+
+.stars i {
+    color: orange;
+}
+
+.opinion {
+    color: var(--gray);
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+
+.price {
+    color: var(--dark);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.price.discounted {
+    color: var(--orange);
+}
+
+span.before-discount {
+    font-size: 1.1rem;
+    text-decoration: line-through;
+    color: var(--gray);
+}
+
+.slide-container {
+    position: relative;
+}
+
+.slide-left {
+    left: 10px;
+}
+
+.slide-right {
+    right: -10px;
+    z-index: 2;
+}
+
+/* ad section */
+
+.ad {
+    background-image: url('images/ad.png');
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    border-radius: 50px;
+}
+
+/* blog */
+
+.blog-title {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    height: 100%;
+}
+
+.card-title {
+    font-size: 2.4rem;
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: var(--gray);
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    height: 6em;
+    transition: .6s;
+}
+
+.card:hover .card-text {
+    overflow: visible;
+    height: 20em;
+}
+
+.card-link {
+    font-size: 1.4rem;
+    color: var(--green);
+    text-decoration: none;
+}
+
+/* shop info */
+
+.shop-assets {
+    background-color: var(--dark);
+    color: var(--white);
+    text-align: center;
+    border-radius: 20px;
+    max-height: 50vh;
+}
+
+.text-wrap {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    max-height: 50vh;
+    position: relative;
+}
+
+.scrollbar {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    background-color: var(--gray);
+    width: 4px;
+    opacity: 0.2;
+}
+
+.scrolled {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 80%;
+    background-color: var(--dark);
+    width: 4px;
+    opacity: 0.6;
+    z-index: 10;
+}
+
+.assets-item span {
+    font-size: 1.2rem;
+}
+
+.opinions {
+    text-align: center;
+}
+
+.opinions h4 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.opinions p {
+    font-size: 1.2rem;
+}
+
+.grades-item p {
+    color: var(--gray);
+}
+
+/* newsletter */
+
+.newsletter {
+    background-image: url('/images/newsletter/background2.png'), url('/images/newsletter/background1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
+}
+
+.newsletter.layer {
+    background-color: var(--dark);
+}
+
+
+
+h4.title {
+    color: var(--white);
+    font-size: 2.4rem;
+    padding: 20px 40px;
+}
+
+.newsletter-text {
+    color: var(--white);
+    font-size: 1.4rem;
+}
+
+.email {
+    position: relative;
+}
+
+.email input {
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px 40px;
+    border: none;
+    flex-grow: 2;
+}
+
+.email input:focus {
+    outline: none;
+}
+
+.email a {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+.cookies {
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
+/* footer */
+
+.footer {
+    border-top: 1px solid var(--gray);
+}
+
+.footer-header {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: var(--dark);
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav-item {
+    padding: .5rem .25rem;
+}
+
+.footer-nav-item a {
+    color: var(--dark);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
